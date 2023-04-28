@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GitHub Redirect Button</title>
+    <style>
+      #github-button {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 18px;
+        cursor: pointer;
+      }
+      #github-button:hover {
+        background-color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="github-button">Go to GitHub</button>
+    <script>
+      const githubButton = document.getElementById('github-button');
+      githubButton.addEventListener('click', () => {
+        window.location.href = 'https://github.com';
+      });
+    </script>
+  </body>
+</html>
+
+
